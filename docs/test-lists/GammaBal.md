@@ -1,0 +1,27 @@
+## Test-list for GammaBal
+# Completed
+- [OK] 17 cards are added, bringing a total of 59 cards to GammaBal.
+- [OK] Unit occupation is introduced with no current functionality.
+- [OK] Players may only choose unit affinities before any unit has moved or attacked.
+- [OK] Structure cards are introduced, some with 4x4 grids of effect.
+  - [OK] Fountain of Youth - grants every unit +10 HP per turn.
+  - [OK] The Ancient Camping Van - The van looks scary. All surrounding units are anxious (-5 RGN, 1 FER, 1 MS, STR/AP halved).
+  - [OK] We Will Build A Wall - Erect a 5x4 wall for 5 rounds, restricting movement of everyone inside.
+  - [OK] The Ringrider Palace - All units become drunk, losing 1 MS (if above 1 MS), 1 FER, 20 STR and 20 AP.
+  - [OK] The House of God - Erect a church, creating a safe haven of size 5x5.
+- [OK] A new debuff, Lethargic, is introduced, halving STR, reducing MS to 0 and FER to 1.
+- [OK] A new buff, Rush, is introduced. It has no functionality except triggering lethargic after set amount of rounds.
+- [OK] Unit ideas:
+  - [OK] Invisible Vayne - Is invisible for the first 7 turns, but may not attack.
+  - [OK] Anders the Frozen - Draws from the power of snow and ice to become insanely strong and endurant. Becomes lethargic after 5 rounds (for 7 rounds).
+  - [OK] Isaac the Holy - Has largely increased stats against demons and monsters.
+  - [OK] Kanye East - Always spawns on the left-most possible position of the board. May not move west.
+  - [OK] Mr. Garrison - Bans every student in a 5x5 around him every time he moves for 3 rounds. Transgender.
+- [OK] Card ideas:
+  - [OK] Lienack - All units are fully active, gaining 1 ferocity for 5 turns.
+  - [OK] 50 Shades of Empowerment - All female characters are empowered, gaining 40 STR and 40 AP against male characters.
+  - [OK] Objection! End current player's turn immediately, but take 50 player damage.
+  - [OK] The Ol' Switcheroo - Gain control of target unit (for 3 turns). If used on friendly unit, remove all CC.
+  - [OK] Tit for tat - Draw 2 cards. Your opponent(s) draw 1 card.
+  - [OK] Save the Environment - Recycle your hand. Your opponent(s) gain 30 HP.
+  - [OK] The Howling Abyssinge Coos - Randomise the position of all units on the board.

@@ -1,0 +1,31 @@
+## Test-list for EpsilonRok
+# Completed
+- [OK] New board dimensions: 11 x 13.
+- [OK] Players may only spawn units on their respective back row.
+- [OK] This process starts from the Keep and continues outwards horizontally.
+- [OK] Only cards found in player's hand may be used (check).
+- [OK] A player may have up to 10 cards in hand. Cards above this range are burned.
+- [OK] Unit affiliations.
+- [OK] Unit regeneration is introduced, defaulting to 0 in this iteration.
+- [OK] A new enum, Buff, is introduced, providing functionality for durational buffs.
+- [OK] Card ideas:
+  - [OK] Pot of Greed: draw 3 cards, but skip your turn automatically. May destroy Pot of Greed in opponents' hands.
+  - [OK] Suspension - Suspend any unit belonging to Alssund or The State School, removing its affiliation and oppressing it for 6 turns.
+  - [OK] Rito Client - Something went wrong, and all your character's data was lost (it died). Costs 70 mana.
+  - [OK] Report - File a report on enemy unit, banning it for 10 turns, after which it respawns.
+  - [OK] The State School - All belonging units gain increased stats (except Mathias).
+  - [OK] Alssund High - All belonging units gain increased stats.
+  - [OK] Casual Shotgun - Shoot an enemy unit who has been annoying lately. If its combined stats are below 200, it dies.
+  - [OK] The Curse of Ricke Peterson - Make enemy unit cry, suppressing it for 4 turns and becoming useless (0 stats and 1 HP).
+  - [OK] Black Hole - Kills all units in the board center (away from player bases).
+  - [OK] Above Average Sword - Strengthen target unit, granting +80 strength permanently.
+  - [OK] The Blue Waffleboat. All units are well-fed for 5 turns, regenerating 20 health per turn.
+- [OK] Unit ideas:
+  - [OK] Michael Tyrone - When Tyrone kills an enemy unit, go for the penta and kill up to 4 units, friendly or hostile, in close proximity (activatable once).
+  - [OK] Angry German Kid - 5 Ferocity, 10 Strength. Enrages at 60 HP, gaining 15 ferocity and 10 strength permanently.
+  - [OK] Benseboy - A sorcerer, Benseboy attacks with smoke, which also suppresses enemy defender for 3 turns.
+  - [OK] Ahri (furry).
+  - [OK] Emily Coon.
+- [OK] 42 cards exist in EpsilonRok.
+# Test-incomplete
+- [] Spawning unit outside allowed spawn position (undefined behaviour out of bounds).
